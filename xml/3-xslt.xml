@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/countries/country">
+        <xsl:if test="(@population &gt; 9000000) and (@population &lt; 10000000)">
+            <xsl:copy-of select='.' />
+        </xsl:if>
+    </xsl:template>
+</xsl:stylesheet>

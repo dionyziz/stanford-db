@@ -1,0 +1,1 @@
+SELECT DISTINCT year FROM Movie NATURAL JOIN Rating WHERE stars IN ( 4, 5 ) ORDER BY year ASC;

@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<!DOCTYPE CityInfo SYSTEM '1.dtd'>
+<CityInfo Name="Athens">
+    <Government>
+        <Mayor></Mayor>
+        <Assistant></Assistant>
+    </Government>
+    <Neighborhood Name='Zografou'>
+        <Bookshop></Bookshop>
+    </Neighborhood>
+</CityInfo>

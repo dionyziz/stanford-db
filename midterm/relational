@@ -1,0 +1,4 @@
+\project_{maker} Makes \join \select_{year = 2010} Car
+
+\project_{year, model}
+Car - \select_{year < y2 ^ model = m2} ( Car \cross ( \rename_{m2,y2} \project_{model,year} Car ) )

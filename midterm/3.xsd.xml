@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="PassengerInfo">
+   <xs:complexType>
+     <xs:sequence>
+       <xs:element name="Name" type="xs:string" maxOccurs="2"/>
+       <xs:element name="Seat" type="xs:string"/>
+       <xs:choice>
+         <xs:element name="Meal" type="xs:string"/>
+         <xs:element name="Snack" type="xs:string" maxOccurs="2"/>
+       </xs:choice>
+     </xs:sequence>
+   </xs:complexType>
+ </xs:element>
+</xs:schema>

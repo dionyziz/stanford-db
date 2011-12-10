@@ -1,0 +1,1 @@
+SELECT name, title FROM (Rating A CROSS JOIN Rating B ON A.mID = B.mID AND A.rID = B.rID AND A.ratingDate < B.ratingDate) CROSS JOIN Reviewer R ON A.rID = R.rID CROSS JOIN Movie M ON M.mID = A.mID WHERE B.stars > A.stars;

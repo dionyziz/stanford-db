@@ -1,0 +1,9 @@
+<!ELEMENT CityInfo (Government, Neighborhood+)>
+<!ATTLIST CityInfo Name CDATA #REQUIRED>
+<!ELEMENT Government (Mayor, Assistant)>
+<!ELEMENT Mayor (#PCDATA)>
+<!ELEMENT Assistant (#PCDATA)>
+<!ELEMENT Neighborhood (Library | Bookshop)?>
+<!ATTLIST Neighborhood Name CDATA #REQUIRED>
+<!ELEMENT Library (#PCDATA)>
+<!ELEMENT Bookshop (#PCDATA)>
