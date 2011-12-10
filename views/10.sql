@@ -1,0 +1,8 @@
+CREATE TRIGGER NoRatingDelete
+INSTEAD OF DELETE ON NoRating
+FOR EACH ROW BEGIN
+    INSERT INTO
+        Rating
+    SELECT
+        201, OLD.mID, 1, NULL;
+END;

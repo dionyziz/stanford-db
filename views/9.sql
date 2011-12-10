@@ -1,0 +1,8 @@
+CREATE TRIGGER NoRatingDelete
+INSTEAD OF DELETE ON NoRating
+FOR EACH ROW BEGIN
+    DELETE FROM
+        Movie
+    WHERE
+        mID = OLD.mID;
+END;
