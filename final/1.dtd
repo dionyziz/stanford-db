@@ -1,0 +1,8 @@
+<!ELEMENT Cities (City*)>
+<!ELEMENT City (Mayor, Neighborhood+)>
+<!ATTLIST City Name CDATA #REQUIRED>
+<!ELEMENT Mayor (#PCDATA)>
+<!ELEMENT Neighborhood (Library | Bookshop)?>
+<!ATTLIST Neighborhood Name CDATA #REQUIRED>
+<!ELEMENT Library (#PCDATA)>
+<!ELEMENT Bookshop (#PCDATA)>

@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE Cities SYSTEM '1.dtd'>
+<?xml-stylesheet type="text/xsl" href="3-xslt.xml"?>
+<Cities>
+    <City Name="Athens">
+        <Mayor>Dionysis</Mayor>
+        <Neighborhood Name="Zografou"><Library>Library of Zografou</Library></Neighborhood>
+        <Neighborhood Name="Egaleo"><Bookshop>Papasotiriou</Bookshop></Neighborhood>
+        <Neighborhood Name="Agia Paraskevi"><Bookshop>Plaisio</Bookshop></Neighborhood>
+        <Neighborhood Name="Kaisariani"></Neighborhood>
+    </City>
+</Cities>
